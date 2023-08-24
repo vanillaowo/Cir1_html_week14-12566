@@ -1,0 +1,21 @@
+.box1{
+    width: 1000px;
+    height: 500px;
+
+    padding: 10px;
+    margin: 50px;
+    border: 10px solid orange;
+    border-left: 150px solid orange;
+    box-sizing: content-box;
+}
+
+#box2{
+    width: 1000px;
+    height: 500px;
+
+    padding: 10px;             
+    margin: 50px;
+    border: 10px solid purple;
+    border-left: 150px solid purple;
+    box-sizing: border-box;
+}
